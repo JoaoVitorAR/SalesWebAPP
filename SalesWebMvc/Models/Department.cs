@@ -5,7 +5,7 @@ namespace SalesWebMvc.Models
     public class Department
     {
         [Key]
-        public int _id { get; set; }
-        public string _name { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
     }
 }
