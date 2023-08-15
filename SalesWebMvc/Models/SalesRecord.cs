@@ -10,6 +10,7 @@ namespace SalesWebMvc.Models
         public int id { get; set; }
 
         [Display(Name = "Date")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime date { get; set; }
 
         [Display(Name = "Amount")]
