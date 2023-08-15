@@ -9,6 +9,8 @@ namespace SalesWebMvc.Models
     {
         [Key]
         public int id { get; set; }
+
+        [Display(Name = "Name")]
         public string name { get; set; }
         public ICollection<Seller> sellers { get; set; } = new List<Seller>();
 
